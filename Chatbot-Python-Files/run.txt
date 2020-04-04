@@ -1,0 +1,10 @@
+Step by step guide to run the chatbot-
+
+1. There are in total 4 python files- named classes_dict.py, ml_reply.py, retrieval_based_Reply.py, and rule_based_reply.py.
+2. classes_dict.py file contains the data set used in this chatbot which is stored in this file in form of dictionaries. User need not to run this file.
+3. rule_based_reply.py file is the script use to train the chatbot over the dataset available in classes_dict.py. User need not to run this file.
+4. ml_reply.py file contains the code like bag of words, tokenizer, etc. which are used to manipulate the dataset and train the system. User need not to run this file.
+5. retrieval_based_Reply.py file contains the code for user interaction, smart replies and all front-end details. User need to run this file to see the execution and to interact with the chatbot for getting replies to the typed messages.
+6. user need to save all the file, all the data in an single folder for the succesful execution.
+7. User only need to run retrieval_based_Reply.py file to activate the chatbot and start getting replies to question asked.
+8. At any time to go out from the chat user need to type "exit" and press enter.
